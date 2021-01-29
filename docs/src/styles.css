@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 18px;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #a9a9a9;
+}
+
+.btn a {
+    width: 180-px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.main_container{
+	position: relative;
+}
+
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 65px;
+	background-color: #333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	font-size: 20px;
+	color: #fff;
+}
+
+/* banner_image */
+.banner_image{
+	background: url('images/banner.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-align: center;
+	line-height: 38px;
+	margin-bottom: 15px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.banner_content h1 span{
+	color: #fb2274;
+}
+
+
+/* About */
+.about,
+.services,
+.contactus
+{
+	text-align: center;
+	padding: 5% 10%;
+}
+
+/* Services */
+.services{
+	background: #f5f5f5;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 120px;
+	margin: 0%;
+}
+
+.diff_services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .diff_services_item{
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+	border: 1px solid whitesmoke;
+	margin: 28px;
+	max-width: 100%;
+	text-align: left;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+}
+
+.services .diff_services_item i{
+	position: absolute;
+	bottom: -70px;
+	font-size: 42px;
+}
+.services .diff_services_item h3 {
+	position: absolute;
+	bottom: -50px;
+	left: 70px;
+	font-size: medium;
+}
+.services .diff_services_item .para{
+	position: absolute;
+	bottom: -85px;
+	left: 70px;
+}
+
+.diff_services .diff_services_item h3 {
+    color: #fb2274;
+    margin-bottom: 15px;
+}
+
+/* Contact us */
+.contactus{
+	background: url('images/contact.jpg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	
+}
+.form_wrapper .form_input {
+	margin-bottom: 15px;
+	display: inline-block;
+	margin: 20px 5px;
+}
+
+.form_wrapper .form_input input[type="text"]{
+	width: 180px;
+	padding: 12px 20px; 
+	border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input_text textarea{
+	width: 570px;
+	padding: 12px 20px; 
+	height: 80px;
+	resize: none;
+	border: 1px solid  #ccc;
+	margin-bottom: 20px;
+}
+.btn{
+	background-color: #ff3300; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+cursor: pointer;
+}
+
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #333;
+	padding: 20px 0;
+
+}
+
+.footer .pone{
+	float: left;
+	margin: 20px;
+	font-size: 20px;
+}
+.footer .ptwo{
+	text-align: right;
+	margin: 20px;
+	font-size: 20px;
+	
+}
+.footer .ptwo img{
+	margin: 7px;
+}
+
+
+
+
+
+/* arrow */
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #fb2274;
+	border-radius: 50%;
+	display: none;
+}
+
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
+.banner_content .service{
+   height: 200px;
+   width: 200px;
+   display: inline-block;
+   border: 1px solid whitesmoke;
+   margin: 15px;
+   max-width: 100%;
+   position: relative;
+}
+.banner_content .service i{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-size: 74px;
+}
+.banner_content .service p{
+	position: absolute;
+	bottom: 15%;
+	left: 30%;
+	color: white;
+  }
+  .about{
+	  display: inline-block;
+  }
+  .about .aboutOne{
+	 width: 40%;
+	 margin-bottom: 60px;
+	 margin: 20px ;
+	 float: left;
+	 text-align: left;
+}
+.about .aboutOne h2{
+	margin-bottom: 20px;
+}
+
+/* navbar */
+.navbar_items {
+	position: relative;
+	
+}
+
+#navlist {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+}
+
+#navlist li {
+	flex: auto;
+	text-align: center;
+	padding: 1.6em;
+	font-size: 15px;
+	color: white;
+}
+
+#navlist li:hover {
+	background: #ff3300;
+}
+
+#toggle-nav {
+	display: none;
+	margin: auto;
+	cursor: pointer;
+}
+
+@media screen and ( max-width: 650px ) { 
+
+	.navbar_items {
+		padding: 1.6em;
+		
+	}
+
+	#navlist {
+		flex-direction: column;
+		display: none;
+	}
+	.navbar{
+		position: relative;
+	}
+.navbar .logo{
+	position: absolute;
+    left: 20%;
+}
+	#toggle-nav {
+		display: block;
+		float: left;
+		color: white;
+		position: absolute;
+		top: 15px;
+		left: -170px;
+	}
+
+}
+
+@media (max-width: 650px){
+
+	 .navbar{
+		height: auto;
+	}
+
+	.logo{
+		margin: 20px;
+		text-align: center;
+		font-size: 20px;
+	}
+ 
+	 .navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	} 
+
+	 .navbar_items ul li{
+		margin-bottom:5px;
+	}
+	 
+    .banner_content{
+		margin-top: 35px;
+	}
+	.banner_content .service{
+		width: 90% !important;
+		height: 80px;
+		margin-right: 35px;
+		position: relative;
+	}
+	.banner_content .service i{
+		position: absolute;
+		left: 5px;
+		top: 5px;
+		font-size: 54px;
+	}
+	.banner_content .service p{
+        position: absolute;
+	}
+	.about{
+		width: 100%;
+	}
+.about .aboutOne{
+	width: fit-content;
+	height: fit-content;
+	float: none;
+	align-items: center;
+}
+.about  #image img{
+	width: 100%;
+	margin: 0;
+}
+.services .diff_services_item{
+	margin-bottom: 70px;
+	align-items: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.form_wrapper .form_input{
+	margin-bottom: 5px;
+	width: 100%;
+	margin-left: 1px;
+}
+.form_wrapper .form_input input[type="text"]{
+	width: 300px;
+	
+	
+}
+.form_wrapper .form_input_text textarea{
+	width: 100%;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer .pone, .footer .ptwo{
+	width: 100%;
+	text-align: center;
+}
+.contactus{
+	padding-bottom: 60px;
+}
+
+}
