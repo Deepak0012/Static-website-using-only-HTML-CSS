@@ -1,2 +1,2 @@
 # Responsive-Website-Design-
-How to create the Responsive website Using HTML and CSS without Bootstrap or any libraries
+How to create a Responsive website Using HTML and CSS without Bootstrap or any libraries
